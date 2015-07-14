@@ -10,9 +10,11 @@ This is used internally; if you are interested in something similar see [npm-ins
 npm install -g jam3-install-analytics
 ```
 
+This will provide a couple of global tools.
+
 ## Setup
 
-Once installed, you need to configure a `rc` file:
+Once installed, you need to configure a `rc` file. Run the following:
 
 ```sh
 jam3-install-analytics-setup
