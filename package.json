@@ -1,5 +1,5 @@
 {
-  "name": "npm-install-analytics",
+  "name": "jam3-install-analytics",
   "version": "2.0.0",
   "description": "",
   "main": "index.js",
@@ -21,17 +21,17 @@
     "test": "node test.js"
   },
   "bin": {
-    "npm-install-analytics": "./alias.sh",
-    "npm-install-analytics-setup": "./setup.js",
-    "npm-install-analytics-send": "./send.js"
+    "jam3-install-analytics": "./alias.sh",
+    "jam3-install-analytics-setup": "./setup.js",
+    "jam3-install-analytics-send": "./send.js"
   },
   "keywords": [],
   "repository": {
     "type": "git",
-    "url": "git://github.com/mattdesl/npm-install-analytics.git"
+    "url": "git://github.com/Jam3/jam3-install-analytics.git"
   },
-  "homepage": "https://github.com/mattdesl/npm-install-analytics",
+  "homepage": "https://github.com/Jam3/jam3-install-analytics",
   "bugs": {
-    "url": "https://github.com/mattdesl/npm-install-analytics/issues"
+    "url": "https://github.com/Jam3/jam3-install-analytics/issues"
   }
 }

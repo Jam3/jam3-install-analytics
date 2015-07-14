@@ -29,7 +29,7 @@ This step is optional, but recommended.
 You can add the following alias to `~/.bash_profile` if you would like to alias the command:
 
 ```sh
-alias npm='npm-install-analytics'
+alias npm='jam3-install-analytics'
 ```
 
 Now when you re-start bash, typing `npm install` will silently send information to Google Analytics with your username. 

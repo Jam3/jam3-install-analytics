@@ -1,1 +1,1 @@
-npm-install-analytics-send "$@" & command npm "$@"
+jam3-install-analytics-send "$@" & command npm "$@"
