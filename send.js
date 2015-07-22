@@ -52,7 +52,7 @@ if (argv.save) {
 
 var visitor = ua(id)
 modules.forEach(function (module) {  
-  visitor.event(user, module, save, 0, function (err) {
+  visitor.event(user, module, save, function (err) {
     if (err) {
       console.error(chalk.red('npm-analytics'), err.message)
     }

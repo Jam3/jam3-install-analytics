@@ -16,7 +16,9 @@
     "read": "^1.0.6",
     "universal-analytics": "^0.3.8"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "tape": "^4.0.0"
+  },
   "scripts": {
     "test": "node test.js"
   },

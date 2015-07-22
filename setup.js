@@ -13,9 +13,9 @@ var fs = require('fs')
 var name = 'npm-install-analytics'
 var file = path.resolve(home, '.' + name + 'rc')
 
-read({ prompt: 'What is your username?' }, function (err, user) {
+read({ prompt: 'What is your full name? (eg: John Smith)' }, function (err, user) {
   user = validate(err, user, 'Must provide a username!')
-  read({ prompt: 'What is your UA Tracking ID?' }, function (err, id) {
+  read({ prompt: "What is your team's UA Tracking ID?" }, function (err, id) {
     id = validate(err, id, 'Must provide a UA Tracking ID!')
     var json = JSON.stringify({
       id: id, user: user
